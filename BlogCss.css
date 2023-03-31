@@ -1,0 +1,40 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+  }
+  nav {
+    background-color: purple; /* set the background color of the navigation bar to purple */
+    overflow: hidden; /* hide any content that overflows the navigation bar */
+    display: flex; /* use flexbox to align the links to the right */
+    justify-content: flex-end; /* align the links to the right */
+  }
+  
+  nav ul {
+    list-style-type: none; /* remove bullet points from the list */
+    margin: 0; /* remove default margin from the list */
+    padding: 0; /* remove default padding from the list */
+    display: flex; /* use flexbox to align the links to the right */
+  }
+  
+  nav li {
+    margin-left: 20px; /* add margin between the links */
+  }
+  
+  nav li:first-child {
+    margin-left: auto; /* move the first link to the left as much as possible */
+  }
+  
+  nav li a {
+    display: block; /* display the links as block-level elements */
+    color: white; /* set the text color of the links */
+    text-align: center; /* center the text horizontally */
+    padding: 14px 16px; /* add padding to the links */
+    text-decoration: none; /* remove underline from the links */
+  }
+  
+  nav li a:hover {
+    background-color: #4CAF50; /* change the background color of the link on hover */
+  }
+  
